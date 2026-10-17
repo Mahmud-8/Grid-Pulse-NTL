@@ -1,0 +1,37 @@
+# Local environment and credentials
+.env*
+!.env.example
+!.env.*.example
+*.pem
+*.p12
+*.pfx
+id_rsa
+id_ed25519
+credentials.json
+
+# Dependencies and generated caches
+**/node_modules/
+**/.venv/
+**/venv/
+**/__pycache__/
+*.py[cod]
+**/.pytest_cache/
+**/.mypy_cache/
+**/.ruff_cache/
+**/.cache/
+**/.next/
+**/.turbo/
+**/coverage/
+*.tsbuildinfo
+
+# Local editor, assistant, and operating-system files
+.idea/
+.vscode/
+.claude/settings.local.json
+.claude/scheduled_tasks.lock
+.codeboarding/
+.DS_Store
+Thumbs.db
+*.stackdump
+*.log
+
